@@ -5,3 +5,8 @@
 </a>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TiborUdvari/ai-storyteller/HEAD)
+
+🐳 command example
+```
+docker run -it --rm -p 10000:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook:2023-02-28
+```
